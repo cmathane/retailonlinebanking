@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [retail_Online_banking_1]">
+  <listeners>
+    <listener class-name="com.retail_Onlilne_banking_1.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="banking Web(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.retail_Online_banking_1.test_case.TC_loginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.retail_Online_banking_1.test_case.TC_loginTest_001 -->
+    </classes>
+  </test> <!-- banking Web(failed) -->
+</suite> <!-- Failed suite [retail_Online_banking_1] -->

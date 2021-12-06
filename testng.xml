@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="retail_Online_banking_1">
+ 
+<listeners>
+<listener class-name="com.retail_Onlilne_banking_1.utilities.Reporting"/>
+</listeners>
+  <test name = "banking Web"> 
+     <parameter name="browser" value="Chrome"/>
+   <classes>
+   
+      <class name="com.retail_Online_banking_1.test_case.TC_loginTest_001">  </class>
+      	     
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
